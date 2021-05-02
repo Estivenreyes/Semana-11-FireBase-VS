@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Semana 11</title>
+        <link rel= "stylesheet" href="css/index.css"> 
+    </head>
+    <body>
+        
+        <div id="Publicación">
+            <h1>Postea en que estas pensando</h1>
+
+            <input id="userName" placeholder="Nombre de usuario" type="text"> <br>
+            <input id="userPost" placeholder="Escribe lo que piensas" type="text"> <br>
+            <button id="publicButtom">Publicar</button>
+
+        </div>
+
+        <div id="answer">
+
+            <h2> FreshNews</h2>
+
+            <div id="answerContainer"></div>
+
+        </div>
+
+    </body>
+</html>
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.4.3/firebase-analytics.js"></script>
+<script>
+    var firebaseConfig = {
+    apiKey: "AIzaSyC5ohAM4v8C30zbpTbuaBzqdLU34wNcU3M",
+    authDomain: "semana-11-firebase.firebaseapp.com",
+    projectId: "semana-11-firebase",
+    storageBucket: "semana-11-firebase.appspot.com",
+    messagingSenderId: "845560446708",
+    appId: "1:845560446708:web:424dc9c3169db0c10de8a1",
+    measurementId: "G-2GDPM31XC9"
+  };
+
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+</script>
+
+<script src="components/FilaPost.js"></script>
+<script src = "js/index.js"></script>

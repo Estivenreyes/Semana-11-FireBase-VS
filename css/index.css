@@ -1,0 +1,51 @@
+#UserContent {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#answer {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.columFresh {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    justify-content: center;
+    align-items: center;
+    background: rgb(228, 228, 228);
+    border-radius: 6px;
+    margin-top: 2em;
+    margin-bottom: 4em;
+    position: relative;
+    
+}
+
+.nameFresh {
+    font-size: 10px;
+    margin-left: 220px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+.answerButtonPost{
+    position: absolute;
+    margin-top: 33px;
+    margin-left: 230px;
+}
+
+.inputAnswerPost{
+    width: 16em;
+    margin-left: -85px;
+}
